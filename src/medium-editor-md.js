@@ -12,7 +12,7 @@
  * @param {Function} callback The callback function that is called with the markdown code (first argument).
  * @return {undefined}
  */
-var toMarkdown = require('to-markdown');
+var toMarkdown = require('to-markdown').toMarkdown;
 
 module.exports = function(options, callback) {
 
